@@ -30,7 +30,7 @@ export default function NavbarComponent() {
         >
         <div className="container mx-auto px-4">
             <div className="flex justify-between items-center h-20">
-            <Link href="/" className="font-bold text-2xl flex items-center">
+            <Link href="/Home" className="font-bold text-2xl flex items-center">
                 <span className="text-[#ff9ebb]">FLOWER</span>
                 <span className={scrolled ? "text-gray-800" : "text-white"}>Rosa</span>
             </Link>

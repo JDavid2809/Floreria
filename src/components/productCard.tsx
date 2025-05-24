@@ -16,7 +16,7 @@ interface ProductCardProps {
 export default function ProductCard({
   name,
   price,
-  image,
+  //image,
   description,
   isNew = false,
   discount = 0,
